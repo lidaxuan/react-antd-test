@@ -1,0 +1,43 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: 李继玄（lijixuan@quclouds.com）
+ * @Date: 2020-08-28 10:11:01
+ * @LastEditors: 李继玄（lijixuan@quclouds.com）
+ * @LastEditTime: 2020-08-28 11:47:39
+ * @FilePath: /test/src/assets/style/layout/layout.scss
+ */
+// @import '@/assets/style/index.scss';
+.context {
+  display: flex;
+  .menu {
+    flex:none;
+  }
+  .MainContent {
+    flex: 1;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f3eeee;
+  height: 80px;
+  .left {
+    display: flex;
+    align-items: center;
+    .logo{
+      width: 40px;
+      height: 40px;
+    }
+    span {
+      font-size: 20px;
+    }
+    
+  }
+  .right {
+    cursor: pointer;
+    font-size: 20px;
+  }
+}

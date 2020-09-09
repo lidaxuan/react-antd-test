@@ -5,7 +5,7 @@
  * @Author: 李继玄（lijixuan@quclouds.com）
  * @Date: 2020-08-28 09:33:33
  * @LastEditors: 李继玄（lijixuan@quclouds.com）
- * @LastEditTime: 2020-08-31 10:19:48
+ * @LastEditTime: 2020-09-03 10:06:46
  * @FilePath: /test/src/views/layout/Header.js
  */
 import React from 'react';
@@ -14,9 +14,7 @@ import { message } from 'antd';
 import '@/assets/style/layout/layout.scss';
 
 class Header extends React.Component {
-  constructor(props){  
-    super(props)
-  }
+  
   logOut() {
     message.success('成功退出');
     localStorage.setItem('isLogin', '');

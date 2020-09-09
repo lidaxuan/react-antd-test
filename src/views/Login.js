@@ -5,7 +5,7 @@
  * @Author: 李继玄（lijixuan@quclouds.com）
  * @Date: 2020-08-27 15:09:41
  * @LastEditors: 李继玄（lijixuan@quclouds.com）
- * @LastEditTime: 2020-08-31 10:18:52
+ * @LastEditTime: 2020-09-01 10:18:05
  * @FilePath: /test/src/views/Login.js
  */
 import React, { Component } from 'react';
@@ -20,12 +20,16 @@ const onFinishFailed = errorInfo=> {
 	console.log('Failed:', errorInfo);
 };
 
+
 class Login extends Component {
 	state = { 
 		clientHeight: document.documentElement.clientHeight || document.body.clientHeight,
 		username: 1,
 		password: 1
 	};
+	componentWillMount() {
+		
+	}
 	constructor(props) {
 		super(props);
 		this.onResize = this.onResize.bind(this);

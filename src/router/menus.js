@@ -18,6 +18,16 @@ const menus = [
 		icon: 'file'
 	},
 	{
+		path: '/life',
+		title: '生命周期',
+		icon: 'file'
+	},
+	{
+		path: '/comp',
+		title: '组件',
+		icon: 'comp'
+	},
+	{
 		path: '/form',
 		title: '表单',
 		icon: 'form',
